@@ -1,0 +1,16 @@
+program UI;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  u1 in 'u1.pas' {Form1},
+  u_fr1 in 'u_fr1.pas' {Frame1: TFrame},
+  u_fr2 in 'u_fr2.pas' {Frame2: TFrame};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

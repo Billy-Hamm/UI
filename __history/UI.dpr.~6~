@@ -1,0 +1,16 @@
+program UI;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  u1 in 'u1.pas' {Form1},
+  u_dm in 'u_dm.pas' {DataModule1: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TDataModule1, DataModule1);
+  Application.Run;
+end.

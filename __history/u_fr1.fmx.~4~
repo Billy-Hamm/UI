@@ -1,0 +1,85 @@
+object Frame1: TFrame1
+  Size.Width = 1100.000000000000000000
+  Size.Height = 150.000000000000000000
+  Size.PlatformDefault = False
+  object FlowLayout1: TFlowLayout
+    Align = Bottom
+    Position.Y = 100.000000000000000000
+    Size.Width = 1100.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Justify = Justify
+    JustifyLastLine = Justify
+    FlowDirection = LeftToRight
+    object Button1: TButton
+      Size.Width = 133.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listitembutton'
+      TabOrder = 0
+      Text = 'Button1'
+    end
+    object Button2: TButton
+      Position.X = 193.399993896484400000
+      Size.Width = 133.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listitembutton'
+      TabOrder = 1
+      Text = 'Button2'
+    end
+    object Button3: TButton
+      Position.X = 386.799987792968800000
+      Size.Width = 133.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listitembutton'
+      TabOrder = 2
+      Text = 'Button3'
+    end
+    object Button4: TButton
+      Position.X = 580.200012207031300000
+      Size.Width = 133.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listitembutton'
+      TabOrder = 3
+      Text = 'Button4'
+    end
+    object Button5: TButton
+      Position.X = 773.600036621093800000
+      Size.Width = 133.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listitembutton'
+      TabOrder = 4
+      Text = 'Button5'
+    end
+    object Button6: TButton
+      Position.X = 967.000061035156300000
+      Size.Width = 133.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listitembutton'
+      TabOrder = 5
+      Text = 'Button6'
+    end
+  end
+  object FlowLayout2: TFlowLayout
+    Align = VertCenter
+    Position.Y = 12.000000000000000000
+    Size.Width = 1100.000000000000000000
+    Size.Height = 75.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Justify = Left
+    JustifyLastLine = Left
+    FlowDirection = LeftToRight
+    object Circle1: TCircle
+      Size.Width = 75.000000000000000000
+      Size.Height = 75.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end
