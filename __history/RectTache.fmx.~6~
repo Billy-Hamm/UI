@@ -1,0 +1,83 @@
+object frRectTache: TfrRectTache
+  Size.Width = 189.000000000000000000
+  Size.Height = 100.000000000000000000
+  Size.PlatformDefault = False
+  object rectTacheElem: TRectangle
+    Align = Client
+    Fill.Color = xFF252525
+    Size.Width = 189.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claYellow
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 5.000000000000000000
+    YRadius = 5.000000000000000000
+    OnMouseEnter = rectTacheElemMouseEnter
+    OnMouseLeave = rectTacheElemMouseLeave
+    object Layout1: TLayout
+      Align = MostTop
+      Size.Width = 189.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Label1: TLabel
+        Align = Top
+        StyledSettings = [Style]
+        Size.Width = 189.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Label1'
+        TabOrder = 0
+      end
+      object Label2: TLabel
+        Align = Top
+        StyledSettings = [Style]
+        Position.Y = 25.000000000000000000
+        Size.Width = 189.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Label2'
+        TabOrder = 1
+      end
+    end
+    object Layout2: TLayout
+      Align = Top
+      Position.Y = 50.000000000000000000
+      Size.Width = 189.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Label3: TLabel
+        Align = Top
+        StyledSettings = [Style]
+        Size.Width = 189.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Label3'
+        TabOrder = 0
+      end
+      object Label4: TLabel
+        Align = Top
+        StyledSettings = [Style]
+        Position.Y = 25.000000000000000000
+        Size.Width = 189.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Label4'
+        TabOrder = 1
+      end
+    end
+  end
+end

@@ -1,0 +1,31 @@
+object frRectTache: TfrRectTache
+  Size.Width = 189.000000000000000000
+  Size.Height = 100.000000000000000000
+  Size.PlatformDefault = False
+  object rectTacheElem: TRectangle
+    Align = Client
+    Fill.Color = xFF252525
+    Size.Width = 189.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claYellow
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 5.000000000000000000
+    YRadius = 5.000000000000000000
+    object Layout1: TLayout
+      Align = MostTop
+      Size.Width = 189.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object Layout2: TLayout
+      Align = Top
+      Position.Y = 50.000000000000000000
+      Size.Width = 189.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+  end
+end

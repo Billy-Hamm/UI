@@ -1,0 +1,43 @@
+object frElemNav: TfrElemNav
+  Size.Width = 100.000000000000000000
+  Size.Height = 35.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFFCB331C
+    Size.Width = 100.000000000000000000
+    Size.Height = 35.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 9.000000000000000000
+    YRadius = 9.000000000000000000
+    object ShadowEffect1: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = [Style]
+      Size.Width = 100.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'Label1'
+      TabOrder = 0
+    end
+    object ColorAnimation1: TColorAnimation
+      Duration = 0.200000002980232200
+      PropertyName = 'Fill.Color'
+      StartValue = xFFCB331C
+      StopValue = xFFCDC8C8
+      Trigger = 'IsMouseOver=true'
+      TriggerInverse = 'IsMouseOver=false'
+    end
+  end
+end

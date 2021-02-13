@@ -2,14 +2,14 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2020/07/22 13:27:31.000.384,=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\DX\Unit1.pas</Transaction>
-    <Transaction>2020/07/22 13:27:50.000.789,C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\u1.fmx=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\DX\Unit1.fmx</Transaction>
     <Transaction>2020/07/22 13:27:50.000.789,C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\u1.pas=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\DX\Unit1.pas</Transaction>
+    <Transaction>2020/07/22 13:27:50.000.789,C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\u1.fmx=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\DX\Unit1.fmx</Transaction>
     <Transaction>2020/07/22 13:27:57.000.976,C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\UI.dproj=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\DX\Project2.dproj</Transaction>
     <Transaction>2020/07/22 13:35:25.000.512,=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\Unit1.pas</Transaction>
     <Transaction>2020/07/22 13:36:04.000.605,C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\Unit1.pas=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\u_fr.pas</Transaction>
     <Transaction>2020/07/22 13:36:04.000.605,C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\Unit1.fmx=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\u_fr.fmx</Transaction>
-    <Transaction>2020/07/22 13:36:15.000.176,C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\u_fr.fmx=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\u_fr1.fmx</Transaction>
     <Transaction>2020/07/22 13:36:15.000.176,C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\u_fr.pas=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\u_fr1.pas</Transaction>
+    <Transaction>2020/07/22 13:36:15.000.176,C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\u_fr.fmx=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\u_fr1.fmx</Transaction>
     <Transaction>2020/07/22 13:46:29.000.125,=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\Unit2.pas</Transaction>
     <Transaction>2020/07/22 13:46:38.000.305,C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\Unit2.pas=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\u_fr2.pas</Transaction>
     <Transaction>2020/07/22 13:46:38.000.305,C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\Unit2.fmx=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\u_fr2.fmx</Transaction>
@@ -19,5 +19,14 @@
     <Transaction>2020/07/24 13:47:03.000.284,=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\Unit1.pas</Transaction>
     <Transaction>2020/07/24 13:47:16.000.457,C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\u_dm.pas=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\Unit1.pas</Transaction>
     <Transaction>2020/07/24 13:47:16.000.457,C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\u_dm.dfm=C:\Users\hamza\OneDrive\Bureau\Delphi Apps\Apps\UI\Unit1.dfm</Transaction>
+    <Transaction>2021/02/13 11:29:14.233,=D:\Travail\UI\Unit1.pas</Transaction>
+    <Transaction>2021/02/13 11:29:37.806,D:\Travail\UI\RectTache.pas=D:\Travail\UI\Unit1.pas</Transaction>
+    <Transaction>2021/02/13 11:29:37.806,D:\Travail\UI\RectTache.fmx=D:\Travail\UI\Unit1.fmx</Transaction>
+    <Transaction>2021/02/13 11:53:26.429,=D:\Travail\UI\Unit1.pas</Transaction>
+    <Transaction>2021/02/13 11:53:48.206,D:\Travail\UI\ElemNav.pas=D:\Travail\UI\Unit1.pas</Transaction>
+    <Transaction>2021/02/13 11:53:48.206,D:\Travail\UI\ElemNav.fmx=D:\Travail\UI\Unit1.fmx</Transaction>
+    <Transaction>2021/02/13 12:03:47.532,=D:\Travail\UI\Unit1.pas</Transaction>
+    <Transaction>2021/02/13 12:04:13.526,D:\Travail\UI\ElemMV.pas=D:\Travail\UI\Unit1.pas</Transaction>
+    <Transaction>2021/02/13 12:04:13.526,D:\Travail\UI\ElemMV.fmx=D:\Travail\UI\Unit1.fmx</Transaction>
   </Transactions>
 </BorlandProject>

@@ -6,71 +6,48 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, u_fr1,
   FMX.Layouts, u_fr2, FMX.StdCtrls, FMX.Controls.Presentation, FMX.MultiView,
-  FMX.Objects, FMX.Effects, FMX.Ani, FMX.Filter.Effects;
+  FMX.Objects, FMX.Effects, FMX.Ani, FMX.Filter.Effects, RectTache, ElemNav,
+  System.Rtti, FMX.Grid.Style, FMX.ScrollBox, FMX.Grid, ElemMV;
 
 type
   Tfo1 = class(TForm)
     lay_header: TLayout;
     rect_header: TRectangle;
     lay_body: TLayout;
-    rect_body: TRectangle;
     ShadowEffect1: TShadowEffect;
     FlowLayout2: TFlowLayout;
-    Button1: TButton;
-    Image1: TImage;
-    Button2: TButton;
-    Button3: TButton;
-    Button4: TButton;
-    Button5: TButton;
-    Button6: TButton;
-    Image2: TImage;
-    Image3: TImage;
-    Image4: TImage;
-    Image5: TImage;
-    Image6: TImage;
-    GlowEffect1: TGlowEffect;
-    GlowEffect2: TGlowEffect;
-    GlowEffect3: TGlowEffect;
-    GlowEffect4: TGlowEffect;
-    GlowEffect5: TGlowEffect;
-    GlowEffect6: TGlowEffect;
-    Layout3: TLayout;
-    FlowLayout1: TFlowLayout;
+    layData: TLayout;
+    FLTaches: TFlowLayout;
     lay_tache: TLayout;
     rect_taches: TRectangle;
-    Rectangle4: TRectangle;
-    Rectangle5: TRectangle;
-    Rectangle6: TRectangle;
-    Rectangle7: TRectangle;
     MultiView1: TMultiView;
     master_bt: TButton;
-    rect_rech: TRectangle;
     FlowLayout3: TFlowLayout;
-    Button8: TButton;
-    Button9: TButton;
-    Button10: TButton;
-    Circle1: TCircle;
     FloatAnimation1: TFloatAnimation;
-    FloatAnimation2: TFloatAnimation;
-    FloatAnimation3: TFloatAnimation;
-    FloatAnimation4: TFloatAnimation;
-    FloatAnimation5: TFloatAnimation;
-    ShadowEffect2: TShadowEffect;
     Label1: TLabel;
-    Button7: TButton;
-    Button11: TButton;
-    Button12: TButton;
-    Button13: TButton;
     Button14: TButton;
     InvertEffect1: TInvertEffect;
-    Rectangle1: TRectangle;
-    Rectangle2: TRectangle;
-    GridPanelLayout1: TGridPanelLayout;
-    Circle2: TCircle;
-    FlowLayout4: TFlowLayout;
-    Button15: TButton;
-    Button16: TButton;
-    ScrollBox1: TScrollBox;
+    frRectTache1: TfrRectTache;
+    frRectTache2: TfrRectTache;
+    StringGrid1: TStringGrid;
+    layData2: TLayout;
+    StringGrid2: TStringGrid;
+    Layout1: TLayout;
+    GroupBox1: TGroupBox;
+    frElemMV1: TfrElemMV;
+    frElemNav1: TfrElemNav;
+    frElemNav2: TfrElemNav;
+    frElemNav3: TfrElemNav;
+    frElemNav4: TfrElemNav;
+    frElemNav5: TfrElemNav;
+    frElemMV2: TfrElemMV;
+    frElemMV3: TfrElemMV;
+    frElemMV4: TfrElemMV;
+    frElemMV5: TfrElemMV;
+    Layout2: TLayout;
+    Circle1: TCircle;
+    Company: TLabel;
+    layEts: TLayout;
     procedure Button14Click(Sender: TObject);
 
 

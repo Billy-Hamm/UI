@@ -1,0 +1,52 @@
+object frElemMV: TfrElemMV
+  Size.Width = 180.000000000000000000
+  Size.Height = 44.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Cursor = crHandPoint
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFF46E5A9
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFF44F0BB
+        Offset = 0.996894419193267800
+      end>
+    Fill.Gradient.StartPosition.X = 1.000000000000000000
+    Fill.Gradient.StartPosition.Y = 0.456255733966827400
+    Fill.Gradient.StopPosition.Y = 0.543744266033172600
+    Size.Width = 180.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 8.000000000000000000
+    YRadius = 8.000000000000000000
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = []
+      Margins.Left = 10.000000000000000000
+      Size.Width = 170.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = xFF0C2040
+      TextSettings.HorzAlign = Center
+      Text = 'Label1'
+      TabOrder = 0
+    end
+    object ShadowEffect1: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = xFFEF2A2A
+      Trigger = 'IsMouseOver=true'
+      Enabled = False
+    end
+  end
+end

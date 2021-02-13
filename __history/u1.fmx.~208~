@@ -1,0 +1,318 @@
+object fo1: Tfo1
+  Left = 0
+  Top = 0
+  Caption = 'Gestion Employ'#233's'
+  ClientHeight = 720
+  ClientWidth = 1100
+  FormStyle = Popup
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object lay_body: TLayout
+    Align = Client
+    Size.Width = 1100.000000000000000000
+    Size.Height = 580.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object lay_tache: TLayout
+      Align = Top
+      Size.Width = 1100.000000000000000000
+      Size.Height = 120.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object rect_taches: TRectangle
+        Align = Client
+        Fill.Color = xFF5E59F8
+        Size.Width = 1100.000000000000000000
+        Size.Height = 120.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claNull
+        object FLTaches: TFlowLayout
+          Align = Contents
+          ClipChildren = True
+          Padding.Top = 10.000000000000000000
+          Size.Width = 1100.000000000000000000
+          Size.Height = 120.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Justify = Center
+          JustifyLastLine = Center
+          FlowDirection = LeftToRight
+          HorizontalGap = 30.000000000000000000
+          inline frRectTache1: TfrRectTache
+            Position.X = 346.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 188.000000000000000000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+            inherited rectTacheElem: TRectangle
+              Size.Width = 188.000000000000000000
+              inherited Layout1: TLayout
+                Size.Width = 178.000000000000000000
+                inherited Label1: TLabel
+                  Size.Width = 178.000000000000000000
+                end
+                inherited Label2: TLabel
+                  Size.Width = 178.000000000000000000
+                end
+              end
+              inherited Layout2: TLayout
+                Size.Width = 178.000000000000000000
+                inherited Label3: TLabel
+                  Size.Width = 178.000000000000000000
+                end
+                inherited Label4: TLabel
+                  Size.Width = 178.000000000000000000
+                end
+              end
+            end
+          end
+          inline frRectTache2: TfrRectTache
+            Position.X = 564.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 190.000000000000000000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+            inherited rectTacheElem: TRectangle
+              Size.Width = 190.000000000000000000
+              inherited Layout1: TLayout
+                Size.Width = 180.000000000000000000
+                inherited Label1: TLabel
+                  Size.Width = 180.000000000000000000
+                end
+                inherited Label2: TLabel
+                  Size.Width = 180.000000000000000000
+                end
+              end
+              inherited Layout2: TLayout
+                Size.Width = 180.000000000000000000
+                inherited Label3: TLabel
+                  Size.Width = 180.000000000000000000
+                end
+                inherited Label4: TLabel
+                  Size.Width = 180.000000000000000000
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+    object layData: TLayout
+      Align = Client
+      Size.Width = 559.000000000000000000
+      Size.Height = 460.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object StringGrid1: TStringGrid
+        Align = Client
+        CanFocus = True
+        ClipChildren = True
+        Size.Width = 559.000000000000000000
+        Size.Height = 460.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Viewport.Width = 555.000000000000000000
+        Viewport.Height = 435.000000000000000000
+      end
+    end
+    object layData2: TLayout
+      Align = Right
+      Position.X = 800.000000000000000000
+      Position.Y = 120.000000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 460.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object StringGrid2: TStringGrid
+        Align = Client
+        CanFocus = True
+        ClipChildren = True
+        Size.Width = 300.000000000000000000
+        Size.Height = 460.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Viewport.Width = 296.000000000000000000
+        Viewport.Height = 435.000000000000000000
+      end
+    end
+    object Layout1: TLayout
+      Align = Left
+      Position.Y = 120.000000000000000000
+      Size.Width = 241.000000000000000000
+      Size.Height = 460.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object GroupBox1: TGroupBox
+        Align = Top
+        Size.Width = 241.000000000000000000
+        Size.Height = 100.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'GroupBox1'
+        TabOrder = 0
+      end
+    end
+  end
+  object lay_header: TLayout
+    Align = Top
+    Size.Width = 1100.000000000000000000
+    Size.Height = 140.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object rect_header: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Size.Width = 1100.000000000000000000
+      Size.Height = 140.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claNull
+      object FlowLayout2: TFlowLayout
+        Align = Bottom
+        ClipChildren = True
+        Position.Y = 95.000000000000000000
+        Size.Width = 1100.000000000000000000
+        Size.Height = 45.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Justify = Center
+        JustifyLastLine = Center
+        FlowDirection = LeftToRight
+        HorizontalGap = 20.000000000000000000
+        inline frElemNav1: TfrElemNav
+          Position.X = 260.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+        end
+        inline frElemNav2: TfrElemNav
+          Position.X = 380.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+        end
+        inline frElemNav3: TfrElemNav
+          Position.X = 500.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+        end
+        inline frElemNav4: TfrElemNav
+          Position.X = 620.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+        end
+        inline frElemNav5: TfrElemNav
+          Position.X = 740.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object ShadowEffect1: TShadowEffect
+        Distance = 5.000000000000000000
+        Direction = 90.000000000000000000
+        Softness = 1.000000000000000000
+        Opacity = 0.800000011920929000
+        ShadowColor = claBlack
+      end
+    end
+  end
+  object master_bt: TButton
+    Cursor = crHandPoint
+    StyledSettings = [Family, Size, Style]
+    Position.Y = 178.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 55.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'drawertoolbuttonbordered'
+    TabOrder = 4
+    Text = 'master_bt'
+    TextSettings.FontColor = claWhite
+    object FloatAnimation1: TFloatAnimation
+      AnimationType = Out
+      Duration = 1.500000000000000000
+      Interpolation = Bounce
+      PropertyName = 'RotationAngle'
+      StartValue = 0.000000000000000000
+      StopValue = 359.000000000000000000
+      Trigger = 'IsFocused=true'
+      TriggerInverse = 'IsFocused=false'
+    end
+    object InvertEffect1: TInvertEffect
+    end
+  end
+  object MultiView1: TMultiView
+    DrawerOptions.Mode = PushingDetailView
+    MasterButton = master_bt
+    Mode = NavigationPane
+    NavigationPaneOptions.CollapsedWidth = 0.000000000000000000
+    ClipChildren = True
+    Size.Width = 250.000000000000000000
+    Size.Height = 485.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object FlowLayout3: TFlowLayout
+      Align = Client
+      Padding.Left = -10.000000000000000000
+      Padding.Top = 5.000000000000000000
+      Padding.Right = 5.000000000000000000
+      Padding.Bottom = 5.000000000000000000
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 240.000000000000000000
+      Size.Height = 443.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+      VerticalGap = 30.000000000000000000
+      inline frElemMV1: TfrElemMV
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 180.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        inherited Label1: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+    end
+    object Label1: TLabel
+      Align = Bottom
+      Cursor = crHandPoint
+      StyledSettings = []
+      Margins.Bottom = 5.000000000000000000
+      Position.Y = 453.000000000000000000
+      Size.Width = 250.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Malgun Gothic'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = xFFFFB900
+      TextSettings.HorzAlign = Center
+      TabOrder = 1
+      object Button14: TButton
+        Align = Client
+        StyledSettings = []
+        Size.Width = 250.000000000000000000
+        Size.Height = 27.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'deletetoolbutton'
+        TabOrder = 0
+        Text = 'A propos du projet'
+        TextSettings.Font.Family = 'Malgun Gothic'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {04040000000000000004000000}
+        TextSettings.FontColor = xFFFFB900
+        OnClick = Button14Click
+      end
+    end
+  end
+end
